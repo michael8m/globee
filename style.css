@@ -86,6 +86,7 @@ footer{
     #presenter-header img{
         width: 100%;
         float: none;
+        transform: rotate(0);
     }
     
     #presenter-header .textBundle{
@@ -95,10 +96,8 @@ footer{
     
     .leftFloating img, .rightFloating img, .leftFloating .textBundle, .rightFloating .textBundle{
         width: 100%;
+        
         float: none;
     }
 
-    hr{
-        color: #F1AA49;
-    }
 }
