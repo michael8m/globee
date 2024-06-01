@@ -46,12 +46,10 @@ body{
 
 .leftFloating img{
     float: left;
-    width: 46%;
 }
 
 .rightFloating img{
     float: right;
-    width: 46%;
 }
 
 .leftFloating .textBundle{
@@ -72,13 +70,19 @@ body{
     text-align: justify;
 }
 
+.block img{
+    height: 600px;
+    width: 400px;
+    object-fit: cover;
+}
+
 footer{
     background-color: rgb(31, 31, 31);
     padding: 5%;
     color: white;
     overflow: hidden;
     margin-top: 150px;
-    width: 100%;
+    width: 90%;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -102,5 +106,10 @@ footer{
         width: 100%;
         float: none;
         margin: 0;
+    }
+
+    .block img{
+        width: 100%;
+        height: auto;
     }
 }
