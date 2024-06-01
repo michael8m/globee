@@ -108,6 +108,13 @@ footer{
         margin: 0;
     }
 
+    .leftFloating .textBundle, .rightFloating .textBundle{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: larger;
+    }
+
     .block img{
         width: 100%;
         height: auto;
