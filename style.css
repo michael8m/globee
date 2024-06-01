@@ -6,6 +6,11 @@ h1{
 
 nav{
     height: 70px;
+    overflow: hidden;
+}
+
+nav img{
+    height: 70px;
 }
 
 body{
