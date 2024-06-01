@@ -12,7 +12,9 @@ nav{
 nav img{
     height: 70px;
 }
-
+hr{
+    color: #F1AA49;
+}
 body{
     background-color: #3A3A3A;
     color: #F1AA49;
@@ -29,12 +31,20 @@ body{
 }
 
 #presenter-header img{
-    width: 48%;
+    width: 68%;
     float: right;
     transform: rotate(-25deg);
 }
 
 #presenter-header textBundle{
-    width: 48%;
+    width: 28%;
     float: left;
+}
+
+footer{
+    background-color: rgb(31, 31, 31);
+    padding: 5%;
+    color: white;
+    overflow: hidden;
+    margin-top: 150px;
 }
