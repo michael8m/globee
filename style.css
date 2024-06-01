@@ -103,15 +103,10 @@ footer{
     }
     
     .leftFloating img, .rightFloating img, .leftFloating .textBundle, .rightFloating .textBundle{
-        width: 100%;
-        float: none;
-        margin: 0;
-    }
-
-    .leftFloating .textBundle, .rightFloating .textBundle{
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
+        float: none;
         font-size: larger;
     }
 
