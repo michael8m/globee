@@ -36,9 +36,37 @@ body{
     transform: rotate(-25deg);
 }
 
-#presenter-header textBundle{
+#presenter-header .textBundle{
     width: 28%;
     float: left;
+}
+
+.leftFloating img{
+    float: left;
+    width: 50%;
+}
+
+.rightFloating img{
+    float: right;
+    width: 50%;
+}
+
+.leftFloating .textBundle{
+    float: right;
+    width: 46%;
+    margin: 2%;
+}
+
+.rightFloating .textBundle{
+    float: left;
+    width: 46%;
+    margin: 2%;
+}
+
+.block{
+    overflow: hidden;
+    padding: 2%;
+    text-align: justify;
 }
 
 footer{
