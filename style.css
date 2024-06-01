@@ -43,23 +43,23 @@ body{
 
 .leftFloating img{
     float: left;
-    width: 50%;
+    width: 46%;
 }
 
 .rightFloating img{
     float: right;
-    width: 50%;
+    width: 46%;
 }
 
 .leftFloating .textBundle{
     float: right;
-    width: 46%;
+    width: 42%;
     margin: 2%;
 }
 
 .rightFloating .textBundle{
     float: left;
-    width: 46%;
+    width: 42%;
     margin: 2%;
 }
 
@@ -75,4 +75,30 @@ footer{
     color: white;
     overflow: hidden;
     margin-top: 150px;
+}
+
+@media only screen and (max-width: 800px) {
+    body{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    #presenter-header img{
+        width: 100%;
+        float: none;
+    }
+    
+    #presenter-header .textBundle{
+        width: 100%;
+        float: none;
+    }
+    
+    .leftFloating img, .rightFloating img, .leftFloating .textBundle, .rightFloating .textBundle{
+        width: 100%;
+        float: none;
+    }
+
+    hr{
+        color: #F1AA49;
+    }
 }
