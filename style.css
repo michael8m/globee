@@ -95,11 +95,13 @@ header{
 
 footer{
     background-color: rgb(31, 31, 31);
-    padding: 5%;
+    padding: 1%;
     color: white;
     overflow: hidden;
     margin-top: 50px;
-    width: 90%;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -126,5 +128,11 @@ footer{
         margin-right: 5%;
         float: none;
         font-size: larger;
+    }
+    
+    footer{
+        display: inherit;
+        width: 96%;
+        padding: 2%;
     }
 }
